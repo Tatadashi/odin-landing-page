@@ -55,13 +55,12 @@ body {
 }
 
 .main-image {
-    width: 50%;
+    width: 45%;
     height: auto;
-    aspect-ratio: 16/9;
     display: flex;
 }
 
-.info {
+.info-section {
     background-color: darkmagenta;
     display: flex;
     flex-direction: column;
