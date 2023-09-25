@@ -92,6 +92,7 @@ body {
 .icon {
     width: 100%;
     height: auto;
+    margin-bottom: 10px;
     border-radius: 10px;
     border: solid;
     border-color: aqua;
@@ -118,14 +119,45 @@ body {
     text-align: right;
 }
 
+.invite-section {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 150px;
+    padding-block: 50px;
+}
+
+.invite-box {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.invite-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.invite-header {
+    font-size: 24px;
+    margin: 0;
+}
+
+.invite-primary {
+    color: whitesmoke
+}
+
 a {
     text-decoration: none;
 }
 
 button {
     border-radius: 8px;
-    background-color: #3882F6;
     border-color: #3882F6;
+    border: 2px solid;
+    background-color: #3882F6;
     color:#F9FAF8;
     font-size: 20px;
     padding: 5px 30px;
